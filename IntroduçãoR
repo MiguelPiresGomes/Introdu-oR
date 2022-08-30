@@ -1,0 +1,47 @@
+#Miguel Pires 
+https://www.linkedin.com/in/miguel-pires-54b875228/
+#atividade sugerida pelo professor
+https://www.linkedin.com/in/wandreveloso/
+
+z <- 3 ==2
+
+class(murders$region)
+murders$region
+levels(murders$region)
+length(levels(murders$region))
+murders$region == murders[["region"]]
+class(murders[["region"]])
+class(murders["region"])
+x <- c("a", "a", "b","b","c")
+table(x)
+#table serve para tebelar os dados
+a <- 2
+b <- -1
+c<- -4
+
+
+y2 <- (-b-sqrt(b^2 - 4*a*c )) / (2*a) 
+
+y1 <- (-b+sqrt(b^2 - 4*a*c )) / (2*a)
+log(1024,4)
+
+
+
+
+#exercicio
+
+install.packages("dslabs")
+#instalar
+library(dslabs)
+#carregar biblioteca
+movielens
+#dados
+str(movielens)
+head(movielens)
+tall(movielens)
+#carregar os dados da biblioteca
+class(movielens$title)
+class(movielens$genres)
+#tipo de variavel
+length(movielens$genres)
+#quantficar os tipos de variavel
